@@ -1,0 +1,165 @@
+{
+    "supermercado": [
+        {
+            "nombre": "Mercadona",
+            "direccion": "C/Rio Guadalquivir, 45",
+            "coordenadas": "41 24.2028, 2 10.4418",
+            "secciones": [
+                {
+                    "nombre": "pescaderia",
+                    "productos": [
+                        {
+                            "productosOferta": [
+                                {
+                                    "nombre": "lubina",
+                                    "descipcion": "lubina salvaje",
+                                    "origen": "cantabrico",
+                                    "perecedero": true,
+                                    "precioVenta": 10.75,
+                                    "descuento": 2.35,
+                                    "cantidad": 1,
+                                    "adquirido": true
+                                },
+                                {
+                                    "nombre": "corvina",
+                                    "descipcion": "corvina piscifactoria",
+                                    "origen": "alicante",
+                                    "perecedero": true,
+                                    "precioVenta": 5.30,
+                                    "descuento": 0.50,
+                                    "cantidad": 2,
+                                    "adquirido": false
+                                }
+                            ],
+                            "productosHabituales": [
+                                {
+                                    "nombre": "merluza",
+                                    "descipcion": "merluza",
+                                    "origen": "mediterraneo",
+                                    "perecedero": true,
+                                    "precioVenta": 6.55,
+                                    "cantidad": 1,
+                                    "adquirido": true
+                                }
+                            ]
+                        }
+                        
+                    ]
+                   
+                },
+                {
+                    "nombre": "limpieza",
+                    "productos": [
+                        {
+                            "productosOferta": [
+                                {
+                                    "nombre": "fregasuelos",
+                                    "descipcion": "fregasuelo olor pino",
+                                    "origen": "España",
+                                    "perecedero": false,
+                                    "precioVenta": 1.15,
+                                    "descuento": 0.10,
+                                    "cantidad": 1,
+                                    "adquirido": false
+                                }
+                            ],
+                            "productosHabituales": [
+                                {
+                                    "nombre": "papel higienico",
+                                    "descipcion": "papel higienico tres capas de 48 rollos",
+                                    "origen": "Francia",
+                                    "perecedero": false,
+                                    "precioVenta": 10.08,
+                                    "cantidad": 1,
+                                    "adquirido": true
+                                }
+                            ]
+                        }
+                        
+                    ]
+                    
+                }
+            ]
+        },
+        {
+            "nombre": "Ahorramas",
+            "direccion": "C/Fernando Sexto, 4",
+            "coordenadas": "23 10.1245, 45 06.4455",
+            "secciones": [
+                {
+                    "nombre": "panaderia",
+                    "productos": [
+                        {
+                            "productosOferta": [
+                                {
+                                    "nombre": "rosquillas",
+                                    "descipcion": "rosquillas 12 unidades",
+                                    "origen": "Madrid",
+                                    "perecedero": true,
+                                    "precioVenta": 3.50,
+                                    "descuento": 0.75,
+                                    "cantidad": 1,
+                                    "adquirido": true
+                                }
+                            ],
+                            "productosHabituales": [
+                                {
+                                    "nombre": "pan de pueblo",
+                                    "descipcion": "pan de pueblo",
+                                    "origen": "Madrid",
+                                    "perecedero": true,
+                                    "precioVenta": 0.90,
+                                    "cantidad": 2,
+                                    "adquirido": true
+                                }
+                            ]
+                        }
+                        
+                    ]
+                },
+                {
+                    "nombre": "carniceria",
+                    "productos": [
+                        {
+                            "productosOferta": [
+                                {
+                                    "nombre": "cinta de lomo",
+                                    "descipcion": "conta de lomo adobada",
+                                    "origen": "Catalauña",
+                                    "perecedero": true,
+                                    "precioVenta": 2.20,
+                                    "descuento": 0.30,
+                                    "cantidad": 1,
+                                    "adquirido": false
+                                },
+                                {
+                                    "nombre": "chuletillas de lechal",
+                                    "descipcion": "chuletillas de cordero lechal ",
+                                    "origen": "Segovia",
+                                    "perecedero": true,
+                                    "precioVenta": 15.90,
+                                    "descuento":1.00,
+                                    "cantidad": 1,
+                                    "adquirido": true
+                                }
+                            ],
+                            "productosHabituales": [
+                                {
+                                    "nombre": "pechugas de pollo",
+                                    "descipcion": "pechugas de pollo de corral enteras",
+                                    "origen": "Andalucía",
+                                    "perecedero": true,
+                                    "precioVenta": 4.70,
+                                    "cantidad": 2,
+                                    "adquirido": true
+                                }
+                            ]
+                        }
+                        
+                    ]
+                    
+                }
+            ]
+        }
+    ]
+}

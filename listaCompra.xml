@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <supermercado>
+    <nombre>Mercadona</nombre>
+    <direccion>C/Rio Guadalquivir, 45</direccion>
+    <coordenadas>41 24.2028, 2 10.4418</coordenadas>
+    <secciones>
+      <nombre>pescaderia</nombre>
+      <productos>
+        <productosOferta>
+          <nombre>lubina</nombre>
+          <descipcion>lubina salvaje</descipcion>
+          <origen>cantabrico</origen>
+          <perecedero>true</perecedero>
+          <precioVenta>10.75</precioVenta>
+          <descuento>2.35</descuento>
+          <cantidad>1</cantidad>
+          <adquirido>true</adquirido>
+        </productosOferta>
+        <productosOferta>
+          <nombre>corvina</nombre>
+          <descipcion>corvina piscifactoria</descipcion>
+          <origen>alicante</origen>
+          <perecedero>true</perecedero>
+          <precioVenta>5.30</precioVenta>
+          <descuento>0.50</descuento>
+          <cantidad>2</cantidad>
+          <adquirido>false</adquirido>
+        </productosOferta>
+        <productosHabituales>
+          <nombre>merluza</nombre>
+          <descipcion>merluza</descipcion>
+          <origen>mediterraneo</origen>
+          <perecedero>true</perecedero>
+          <precioVenta>6.55</precioVenta>
+          <cantidad>1</cantidad>
+          <adquirido>true</adquirido>
+        </productosHabituales>
+      </productos>
+    </secciones>
+    <secciones>
+      <nombre>limpieza</nombre>
+      <productos>
+        <productosOferta>
+          <nombre>fregasuelos</nombre>
+          <descipcion>fregasuelo olor pino</descipcion>
+          <origen>España</origen>
+          <perecedero>false</perecedero>
+          <precioVenta>1.15</precioVenta>
+          <descuento>0.10</descuento>
+          <cantidad>1</cantidad>
+          <adquirido>false</adquirido>
+        </productosOferta>
+        <productosHabituales>
+          <nombre>papel higienico</nombre>
+          <descipcion>papel higienico tres capas de 48 rollos</descipcion>
+          <origen>Francia</origen>
+          <perecedero>false</perecedero>
+          <precioVenta>10.08</precioVenta>
+          <cantidad>1</cantidad>
+          <adquirido>true</adquirido>
+        </productosHabituales>
+      </productos>
+    </secciones>
+  </supermercado>
+  <supermercado>
+    <nombre>Ahorramas</nombre>
+    <direccion>C/Fernando Sexto, 4</direccion>
+    <coordenadas>23 10.1245, 45 06.4455</coordenadas>
+    <secciones>
+      <nombre>panaderia</nombre>
+      <productos>
+        <productosOferta>
+          <nombre>rosquillas</nombre>
+          <descipcion>rosquillas 12 unidades</descipcion>
+          <origen>Madrid</origen>
+          <perecedero>true</perecedero>
+          <precioVenta>3.50</precioVenta>
+          <descuento>0.75</descuento>
+          <cantidad>1</cantidad>
+          <adquirido>true</adquirido>
+        </productosOferta>
+        <productosHabituales>
+          <nombre>pan de pueblo</nombre>
+          <descipcion>pan de pueblo</descipcion>
+          <origen>Madrid</origen>
+          <perecedero>true</perecedero>
+          <precioVenta>0.90</precioVenta>
+          <cantidad>2</cantidad>
+          <adquirido>true</adquirido>
+        </productosHabituales>
+      </productos>
+    </secciones>
+    <secciones>
+      <nombre>carniceria</nombre>
+      <productos>
+        <productosOferta>
+          <nombre>cinta de lomo</nombre>
+          <descipcion>conta de lomo adobada</descipcion>
+          <origen>Catalauña</origen>
+          <perecedero>true</perecedero>
+          <precioVenta>2.20</precioVenta>
+          <descuento>0.30</descuento>
+          <cantidad>1</cantidad>
+          <adquirido>false</adquirido>
+        </productosOferta>
+        <productosOferta>
+          <nombre>chuletillas de lechal</nombre>
+          <descipcion>chuletillas de cordero lechal </descipcion>
+          <origen>Segovia</origen>
+          <perecedero>true</perecedero>
+          <precioVenta>15.90</precioVenta>
+          <descuento>1.00</descuento>
+          <cantidad>1</cantidad>
+          <adquirido>true</adquirido>
+        </productosOferta>
+        <productosHabituales>
+          <nombre>pechugas de pollo</nombre>
+          <descipcion>pechugas de pollo de corral enteras</descipcion>
+          <origen>Andalucía</origen>
+          <perecedero>true</perecedero>
+          <precioVenta>4.70</precioVenta>
+          <cantidad>2</cantidad>
+          <adquirido>true</adquirido>
+        </productosHabituales>
+      </productos>
+    </secciones>
+  </supermercado>
+</root>
